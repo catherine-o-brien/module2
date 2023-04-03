@@ -1,5 +1,7 @@
 # Digital Scrapbooking with an ESP-32
 
+![Collage with images of food, people, architecture, and art in Madrid](https://catherine-o-brien.github.io/images/digital-scrapbook/scrapbook-example-1.png "Example Scrapbook Created With This Device")
+
 # THE PROJECT
 
 [View this project on my website](https://catherine-o-brien.github.io/digital-scrapbook)
@@ -37,6 +39,8 @@ In another iteration of this device, I would love to add additional hardware tha
 # STEP 1: CONNECTING THE ESP-32 TO THE JOYSTICK AND BUTTON
 
 I used a breadboard and wires to connect the ESP-32 to the joystick and button. The joystick requires 5 connections– ground, 5V, and three numeric pins. You can use any numeric pins, but I used 36, 37, and 2. The button must be connected to ground and to one numeric pin. Again, you can use any numeric pin, but I used 22. 
+
+![Breadboard with pins on the ESP-32 connected to joystick and button by male-to-female wires](https://catherine-o-brien.github.io/images/digital-scrapbook/board_setup_1.png "Breadboard setup")
 
 # STEP 2: USING DIGITALREAD() WITH ESP-32 TO GET THE DATA FROM THE JOYSTICK AND BUTTON
 
